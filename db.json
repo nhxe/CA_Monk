@@ -1,0 +1,102 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "title": "The Silent Geometry of Brutalism",
+      "category": [
+        "ARCHITECTURE"
+      ],
+      "tags": [
+        "Brutalism",
+        "Concrete",
+        "Urbanism"
+      ],
+      "description": "An investigation into the raw honesty of exposed concrete and the architectural souls of monolithic structures.",
+      "date": "2026-02-15T10:00:00.000Z",
+      "coverImage": "https://images.unsplash.com/photo-1518005020951-eccb494ad742?q=80&w=2000&auto=format&fit=crop",
+      "content": "There is a specific kind of beauty in the unapologetic weight of concrete. Brutalism, often misunderstood as cold or hostile, is in fact an architecture of profound honesty. It does not hide its structural purpose behind glass curtains or decorative facades.\n\nIn this entry, we explore the works of Marcel Breuer and Le Corbusier, looking at how they used the 'béton brut' to create spaces that feel both ancient and futuristic. The way light hits a textured concrete wall at sunset reveals a softness that few other materials can replicate. It is the architecture of the soul, stripped of all pretense.\n\nThe materiality of concrete speaks to permanence and truth. Each surface bears the mark of its creation - the wooden formwork, the pour lines, the aggregate distribution. These are not flaws to be concealed but features to be celebrated. When we strip away ornamentation, we're left with the essential language of space, mass, and light.\n\nContemporary architects are rediscovering these principles, understanding that brutalism was never about being brutal to inhabitants, but rather about being honest about construction. In an age of digital facades and climate-controlled environments, there's something deeply satisfying about architecture that openly declares its structural logic.",
+      "readingTime": 4
+    },
+    {
+      "id": "2",
+      "title": "The Ethics of Digital Minimalism",
+      "category": [
+        "PHILOSOPHY"
+      ],
+      "tags": [
+        "Minimalism",
+        "Technology",
+        "Mindfulness"
+      ],
+      "description": "In an era of infinite noise, the most radical act is the intentional curation of one's digital landscape.",
+      "date": "2026-01-20T14:30:00.000Z",
+      "coverImage": "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?q=80&w=2000&auto=format&fit=crop",
+      "content": "Digital minimalism is not about living in a cave; it is about reclaiming the agency over our attention. The modern interface is designed to exploit our biological weaknesses, turning focus into a commodity.\n\nWe must build our own 'architectural' boundaries in the digital realm. This means choosing tools that serve us, rather than the other way around. It requires a philosophy of 'less but better', where every notification is a conscious choice and every app has a verified purpose. Silence in the digital age is not a luxury—it is a necessity for deep thought.\n\nThe paradox of choice in our digital lives has become paralyzing. We're offered infinite options for communication, entertainment, and productivity, yet find ourselves less connected, less entertained, and less productive than ever. The solution isn't to abandon technology but to cultivate a more intentional relationship with it.\n\nConsider the craftsman who selects each tool with care, maintaining only what serves a clear purpose. Our digital toolbox deserves the same consideration. Each app, each notification, each digital commitment should earn its place through demonstrated value, not through default settings or fear of missing out.",
+      "readingTime": 6
+    },
+    {
+      "id": "3",
+      "title": "Future of Fintech",
+      "category": [
+        "FINANCE",
+        "TECH"
+      ],
+      "tags": [
+        "Blockchain",
+        "AI",
+        "Innovation"
+      ],
+      "description": "Exploring how AI and blockchain are reshaping financial services and creating new paradigms of trust.",
+      "date": "2026-01-11T09:12:45.120Z",
+      "coverImage": "https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg",
+      "content": "The financial technology landscape is undergoing a remarkable transformation, driven by groundbreaking innovations in artificial intelligence and blockchain technology. These advancements are not merely incremental improvements but represent a fundamental shift in how we conceptualize and interact with financial services.\n\nArtificial intelligence has emerged as a powerful tool in risk assessment, fraud detection, and personalized financial advice. Machine learning algorithms can now analyze vast amounts of transaction data in real-time, identifying patterns and anomalies that would be impossible for human analysts to detect.\n\nBlockchain technology promises to bring unprecedented transparency and security to financial transactions. By creating immutable, distributed ledgers, blockchain eliminates the need for traditional intermediaries, reducing costs and increasing transaction speed. Smart contracts built on blockchain platforms are automating complex financial agreements.\n\nThe convergence of AI and blockchain is particularly exciting. Imagine a future where AI algorithms automatically execute smart contracts based on real-time market conditions, or where decentralized autonomous organizations make investment decisions through collective intelligence enhanced by machine learning.",
+      "readingTime": 5
+    },
+    {
+      "id": "4",
+      "title": "Concrete Brutalism & Structural Grace",
+      "category": [
+        "ARCHITECTURE"
+      ],
+      "tags": [
+        "Design",
+        "Modernism",
+        "Structure"
+      ],
+      "description": "The intersection of raw materiality and delicate proportions defines the new wave of architectural thought.",
+      "date": "2026-01-11T10:30:00.000Z",
+      "coverImage": "https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg",
+      "content": "Brutalist architecture has long been misunderstood and maligned, dismissed as harsh and inhuman. Yet a new generation of architects is rediscovering the profound beauty that emerges when raw concrete meets carefully considered proportions and spatial relationships.\n\nThe brutalist movement of the mid-20th century prioritized honest expression of materials and structure. Concrete was celebrated not despite its roughness but because of it. The texture of wooden formwork, the patterns of aggregate, the variations in color—all became part of the architectural language.\n\nWhat distinguishes contemporary neo-brutalism from its predecessors is a heightened sensitivity to light, shadow, and human scale. Today's brutalist-inspired buildings use massive concrete forms not to intimidate but to create moments of unexpected grace.\n\nThe key lies in proportion and detail. When concrete elements are designed with the same care that Renaissance architects devoted to stone, the material transcends its utilitarian origins. A precisely proportioned window opening in a thick concrete wall can create a sense of depth and solidity that glass curtain walls can never achieve.",
+      "readingTime": 4
+    },
+    {
+      "id": "5",
+      "title": "The Architecture of Silence",
+      "category": [
+        "PHILOSOPHY"
+      ],
+      "tags": [
+        "Mindfulness",
+        "Space",
+        "Contemplation"
+      ],
+      "description": "Exploring how silence is built into the walls of the modern metropolis, challenging space perception.",
+      "date": "2025-12-28T08:15:00.000Z",
+      "coverImage": "https://images.pexels.com/photos/210617/pexels-photo-210617.jpeg",
+      "content": "In our increasingly noisy world, silence has become a rare and precious commodity. Yet silence is not merely the absence of sound—it is a positive quality that must be actively designed and cultivated, especially within the built environment.\n\nThe architecture of silence begins with understanding that sound and space are intimately connected. Every surface, every volume, every material choice affects how sound behaves in a space. Concrete absorbs sound differently than wood, which differs from fabric, which differs from glass.\n\nBut silence in architecture goes beyond acoustics. It encompasses a quality of stillness, of removal from the chaos of everyday life. The great sacred spaces of the world—from Buddhist temples to Christian monasteries to Islamic mosques—all understand this principle.\n\nModern urban environments pose particular challenges to the architecture of silence. Cities are inherently noisy, chaotic, overstimulating. Yet it's precisely in these contexts that spaces of quietude become most necessary. Libraries, museums, meditation centers, even well-designed residential spaces can offer refuge from sensory overload.",
+      "readingTime": 5
+    },
+    {
+      "title": "Test Article",
+      "category": [
+        "DESIGN"
+      ],
+      "description": "a test run",
+      "date": "2026-01-19",
+      "coverImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop",
+      "content": "This is a test run for the blog.",
+      "id": "1768846206894",
+      "readingTime": 1
+    }
+  ]
+}

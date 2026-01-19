@@ -1,0 +1,5 @@
+{
+  "name": "The Curator - Editorial Blog Platform",
+  "description": "A high-end architectural blog application featuring editorial design, built with React, TanStack Query, and Tailwind CSS. Supports list/detail views and new post creation.",
+  "requestFramePermissions": []
+}

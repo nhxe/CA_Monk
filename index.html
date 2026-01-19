@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>The Curator | Editorial Ledger</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries,typography"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@100..900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "ink": "#0f172a",
+                        "paper": "#ffffff",
+                        "muted-foreground": "#64748b",
+                        "border": "#e2e8f0",
+                        "sidebar-bg": "#fcfcfc"
+                    },
+                    fontFamily: {
+                        "serif": ["Playfair Display", "serif"],
+                        "sans": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "none": "0",
+                        "sm": "2px",
+                        "DEFAULT": "0",
+                    }
+                },
+            },
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer base {
+            body {
+                background-color: #ffffff;
+                color: #0f172a;
+                font-family: 'Inter', sans-serif;
+                -webkit-font-smoothing: antialiased;
+            }
+        }
+        .shadcn-card {
+            @apply border-b border-border bg-white rounded-none transition-all duration-500 hover:border-ink;
+        }
+        .shadcn-card.active {
+            @apply border-ink bg-slate-50 border-b-2;
+        }
+        .skeleton {
+            @apply animate-pulse bg-slate-100 rounded-none;
+        }
+        .readable-measure {
+            max-width: 80ch;
+        }
+        .category-label {
+            @apply inline-flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.2em] text-ink;
+        }
+        .category-bullet {
+            @apply size-2 bg-ink inline-block;
+        }
+        .nav-underline {
+            @apply relative text-[10px] uppercase tracking-widest font-bold no-underline transition-colors py-1;
+        }
+        .nav-underline::after {
+            content: '';
+            @apply absolute bottom-0 left-0 w-full h-[1px] bg-ink/20 transition-all duration-300;
+        }
+        .nav-underline:hover::after {
+            @apply bg-ink h-[2px];
+        }
+        .btn-architectural {
+            @apply px-6 py-3 rounded-none text-[10px] font-bold uppercase tracking-[0.25em] transition-all duration-500 border cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed;
+        }
+        .btn-primary {
+            @apply bg-ink text-white border-ink hover:bg-slate-800 hover:tracking-[0.35em];
+        }
+        .btn-secondary {
+            @apply bg-transparent text-ink border-border hover:border-ink;
+        }
+        .input-architectural {
+            @apply w-full rounded-none border border-slate-200 px-6 py-3 text-sm focus:outline-none focus:border-ink focus:ring-0 transition-all placeholder:text-slate-300 bg-white/50 focus:bg-white;
+        }
+
+        @media print {
+            @page { margin: 2cm; }
+            body { background: white !important; color: black !important; }
+            aside, header, footer, .print-hidden, button { display: none !important; }
+            main { display: block !important; overflow: visible !important; width: 100% !important; padding: 0 !important; }
+            article { max-width: 100% !important; padding: 0 !important; }
+            img { filter: none !important; border: 1px solid #000 !important; }
+            h2 { font-size: 4rem !important; line-height: 1 !important; margin-bottom: 2rem !important; }
+        }
+
+        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar-track { background: #f8fafc; }
+        ::-webkit-scrollbar-thumb { background: #e2e8f0; }
+        ::-webkit-scrollbar-thumb:hover { background: #0f172a; }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "vite": "https://esm.sh/vite@^7.3.1",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2",
+    "@tanstack/react-query": "https://esm.sh/@tanstack/react-query@^5.90.19"
+  }
+}
+</script>
+</head>
+<body class="selection:bg-ink selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
