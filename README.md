@@ -28,15 +28,15 @@ A blog application built with React, TypeScript, TanStack Query, and Tailwind CS
 
 ```bash
 git clone <repo-url>
-cd camonk-interview
+cd CA_Monk
 npm install
-Start JSON Server (backend):
 
+Start JSON Server (backend):
 bash
 Copy code
 npm run server
-Start development server (frontend):
 
+Start development server (frontend):
 bash
 Copy code
 npm run dev
