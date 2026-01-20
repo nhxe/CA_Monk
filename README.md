@@ -2,6 +2,9 @@
 # CA Monk Blog Application
 
 A blog application built with React, TypeScript, TanStack Query, and Tailwind CSS. Users can view, create, and search blogs with a clean, responsive interface.
+<img width="1919" height="910" alt="image" src="https://github.com/user-attachments/assets/a5acb164-8590-454f-b22b-fb05914b1756" />
+<img width="954" height="902" alt="image" src="https://github.com/user-attachments/assets/32e8ee39-b10f-4ff0-923d-cefe9ca07b3e" />
+<img width="1919" height="912" alt="image" src="https://github.com/user-attachments/assets/a95e656b-021c-48bc-bc2d-939c6a37e531" />
 
 ## Features
 
